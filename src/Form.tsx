@@ -42,7 +42,7 @@ function Form() {
         <>
             <form id="form" onSubmit={handleSubmit}>
                 <label>
-                    <input type="text" name="url"/>
+                    <input type="text" name="url" placeholder="https://www.google.com" />
                 </label>
                 <input type="submit" value="Short it!"/>
             </form>
